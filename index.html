@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: aqua;
+    }
+    table{
+      table-layout: auto;
+      width: 100%;
+    }
+    h1{
+      text-align: center;
+      background-color: rgb(8, 254, 12);
+      border: 10px;
+      border-style:groove;
+      color:rgb(255, 240, 240);
+      margin-bottom: 20mm;
+      margin-top: 20mm;
+    }
+    th, td {
+            width:150px;
+            text-align:left;
+            padding: 20px;
+
+     }
+  </style>
+</head>
+<body>
+  <form>
+    <h1><i>Hospital management form</i></h1>
+    <table>
+     <tr>
+      <td>name:</td>
+      <th>
+        <input type="text" placeholder="name" name=""required>
+      </th>
+      <td>appointemt date and time:</td>
+      <th>
+        <input type="date" required>
+        <input type="time" required>
+      </th>
+     </tr>
+     <tr>
+     <td>
+      doctor name:
+    </td>
+      <th >
+        </select>
+        <select required>
+          <option value="doc1">Dr.D.R.Samaram</option>
+          <option value="doc2">Dr.Baby shyamala</option>
+          <option value="doc3">Dr.mallu</option>
+        </select>
+        <td>Sex</td>
+      </th>
+      <th>
+        <select required>
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="others">prefer not to say</option>
+        </select>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Patients date of birth:
+        </td>
+        <th>
+          <input type="date"required>
+        </th>
+        <td>
+          Age of patient
+        </td>
+        <th>
+          <input type="number" placeholder="12" min="1" max="100" required>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          contact number
+        </td>
+        <th>
+          <input type="number" maxlength="10" required>
+        </th>
+        <td>
+          Diseases
+        </td>
+        <th>
+          <input type="text" placeholder="diseses details" text="" required>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Blood group
+        </td>
+        <th>
+          <select required>
+          <option value="b">a+ve</option>
+          <option value="k">a-ve</option>
+          <option value="j">b+ve</option>
+          <option value="r">b-ve</option>
+          <option value="i">ab+ve</option>
+          <option value="l">ab-ve</option>
+        </select>
+        </th>
+        <td>
+          Email id
+        </td>
+        <th>
+          <input type="email" placeholder="abc@gmail.com" name="">
+        </th>
+      </tr>
+      <tr>
+        <th style="text-align: center;">
+          <input type="submit">
+        </th>
+        <td>
+                
+        </td>
+        <th  style="text-align: center;">
+          <input type="reset">
+        </th>
+      </tr>
+    </table>
+
+  </form>
+</body>
+</html>
